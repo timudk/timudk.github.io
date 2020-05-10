@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : # "Tim Dockhorn"
-  avatar           : "profile.png"
+  avatar           : "me.jpg"
   bio              :
   location         : "Waterloo, ON"
   employer         :
@@ -207,8 +207,10 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout: single-mod
+      author_profile: false
+      share: false
+      related: false
   # _teaching
   - scope:
       path: ""
@@ -224,7 +226,7 @@ defaults:
       type: publications
     values:
       layout: single-mod
-      author_profile: false
+      author_profile: true
       share: false
       comments: false
   # _portfolio
