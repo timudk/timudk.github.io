@@ -45,6 +45,12 @@
 	{% else %}
 		<time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%Y" }}</time>
 	{% endif %}
+	{% if post.paperurl %}
+		<br>
+		<a style="text-decoration:none" href="{{ post.paperurl }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+	{% endif %}
+
+	<!-- fa fa-file-pdf-o -->
 
 
 <!--     {% if post.paperurl %}
