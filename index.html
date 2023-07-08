@@ -1,375 +1,456 @@
+<html lang="en">
 
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Tim Dockhorn</title>
-  
+  <title>Tim Dockhorn</title>
+
   <meta name="author" content="Tim Dockhorn">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Tim Dockhorn</name>
-              </p>
-              <p>
-                I am a research scientist at <a href="https://stability.ai/">Stability AI</a> and a final-year PhD student at the University of Waterloo, supervised by <a href="https://cs.uwaterloo.ca/~y328yu/">Yaoliang Yu</a>.  
-                My co-supervisor is <a href="https://homepages.inf.ed.ac.uk/imurray2/">Iain Murray</a>. 
-                Before starting my PhD, I obtained a Master of Mathematics from the University of Waterloo and a Bachelor of Science from the Technical University of Munich. 
-                My main research interest is generative modeling, with a focus on diffusion models.
-              </p>
-              <p style="text-align:center">
-                <a href="mailto:timdockhorn@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="https://scholar.google.ca/citations?user=EtPn_v4AAAAJ">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://twitter.com/timudk">Twitter</a> &nbsp/&nbsp
-                <a href="https://github.com/timudk/">Github</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="assets/me.jpeg"><img style="width:100%;max-width:100%" alt="profile photo" src="assets/me_rounded.jpeg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-						<tr>
-							<td style="padding:20px;width:25%;vertical-align:middle">
-								<video width=100% autoplay loop muted playsinline>
-									<source src="assets/videoldm_sunset.mp4#t=0.001" type="video/mp4" width="160" height="85">
-								</video>
-							</td>
-						<td width="75%" valign="middle">
-							<a href="https://research.nvidia.com/labs/toronto-ai/VideoLDM/">
-								<papertitle>Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models</papertitle>
-							</a>
-							<br>
-							Andreas Blattmann*, Robin Rombach*, <a href="http://www.cs.toronto.edu/~linghuan/">Huan Ling</a>*, <strong>Tim Dockhorn</strong>*, <a href="https://seung-kim.github.io/seungkim/">Seung Wook Kim</a>, <a href="https://www.cs.toronto.edu/~fidler/">Sanja Fidler</a>, <a href="https://karstenkreis.github.io/">Karsten Kreis</a>
-							<br>
-							<em>CVPR</em>, 2023
-							<br>
-							<a href="https://arxiv.org/abs/2304.08818">arXiv</a>
-							/
-							<a href="https://research.nvidia.com/labs/toronto-ai/VideoLDM/">project page</a>
-							/
-							<a href="https://twitter.com/karsten_kreis/status/1648685632632553472">twitter</a>
-							<p></p>
-							<p>We take Stable Diffusion, insert additional temporal layers and fine-tune them on video data while keeping the spatial layers fixed.</p>
-						</td>
-					</tr>
-          <tr>
-						<tr>
-							<td style="padding:20px;width:25%;vertical-align:middle">
-								<video width=100% autoplay loop muted playsinline>
-									<source src="assets/cryoem_interpolation.mp4#t=0.001" type="video/mp4" width="160" height="85">
-								</video>
-							</td>
-						<td width="75%" valign="middle">
-								<papertitle>Latent Space Diffusion Models of Cryo-EM Structures</papertitle>
-							<br>
-							<a href="https://karstenkreis.github.io/">Karsten Kreis</a>*, <strong>Tim Dockhorn</strong>*, Zihao Li, <a href="https://people.csail.mit.edu/zhonge/">Ellen Zhong</a>
-							<br>
-							<em>Machine Learning for Structural Biology Workshop, NeurIPS</em>, 2022 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br>
-              <a href="https://arxiv.org/abs/2211.14169">arXiv</a>
-              /
-              <a href="https://twitter.com/ZhongingAlong/status/1598336281792188417">twitter</a>
-							<p></p>
-							<p>We train diffusion models over molecular confirmations from cryo-EM imaging data.</p>
-						</td>
-					</tr>
-					<tr>
-						<td style="padding:20px;width:25%;vertical-align:middle">
-							<img src="assets/dpdm_complexity.png" alt="clean-usnob" width="160" height="143">
-						</td>
-						<td width="75%" valign="middle">
-							<a href="https://nv-tlabs.github.io/DPDM/">
-								<papertitle>Differentially Private Diffusion Models</papertitle>
-							</a>
-							<br>
-							<strong>Tim Dockhorn</strong>, Tianshi Cao, <a href="http://latentspace.cc/">Arash Vahdat</a>, <a href="https://karstenkreis.github.io/">Karsten Kreis</a>
-							<br>
-							<em>arXiv</em>, 2022
-							<br>
-							<a href="https://arxiv.org/abs/2210.09929">arXiv</a>
-							/
-							<a href="https://nv-tlabs.github.io/DPDM/">project page</a>
-							/
-							<a href="https://github.com/nv-tlabs/DPDM">code</a>
-							/
-							<a href="https://twitter.com/timudk/status/1582717593718181891">twitter</a>
-							<p></p>
-							<p>We train diffusion models with strict differential privacy guarantees and outperform previous methods by large margins.</p>
-						</td>
-					</tr>
-					<tr>
-						<tr>
-							<td style="padding:20px;width:25%;vertical-align:middle">
-								<video width=100% autoplay loop muted playsinline>
-									<source src="assets/genie_cats.mp4#t=0.001" type="video/mp4" width="160" height="85">
-								</video>
-							</td>
-						<td width="75%" valign="middle">
-							<a href="https://nv-tlabs.github.io/GENIE/">
-								<papertitle>GENIE: Higher-Order Denoising Diffusion Solvers</papertitle>
-							</a>
-							<br>
-							<strong>Tim Dockhorn</strong>, <a href="http://latentspace.cc/">Arash Vahdat</a>, <a href="https://karstenkreis.github.io/">Karsten Kreis</a>
-							<br>
-							<em>NeurIPS</em>, 2022
-							<br>
-							<a href="https://arxiv.org/abs/2210.05475">arXiv</a>
-							/
-							<a href="https://nv-tlabs.github.io/GENIE/">project page</a>
-							/
-              <a href="https://nips.cc/virtual/2022/poster/54550">video</a>
-              /
-							<a href="https://github.com/nv-tlabs/GENIE">code</a>
-							/
-							<a href="https://twitter.com/timudk/status/1580173105913135104">twitter</a>
-							<p></p>
-							<p>GENIE distills higher-order score terms into a small neural network and uses them for accelerated diffusion model sampling.</p>
-						</td>
-					</tr>
-        <tr>
-          <tr>
-						<td style="padding:20px;width:25%;vertical-align:middle">
-							<video width=100% autoplay loop muted playsinline>
-								<source src="assets/cld_animation.mp4#t=0.001" type="video/mp4" width="160" height="85">
-							</video>
-						</td>
-          <td width="75%" valign="middle">
-            <a href="https://nv-tlabs.github.io/CLD-SGM/">
-              <papertitle>Score-Based Generative Modeling with Critically-Damped Langevin Diffusion</papertitle>
-            </a>
-            <br>
-            <strong>Tim Dockhorn</strong>, <a href="http://latentspace.cc/">Arash Vahdat</a>, <a href="https://karstenkreis.github.io/">Karsten Kreis</a>
-            <br>
-            <em>ICLR</em>, 2022 &nbsp <font color="red"><strong>(Spotlight Presentation)</strong></font>
-            <br>
-            <a href="https://arxiv.org/abs/2112.07068">arXiv</a>
-						/
-						<a href="https://nv-tlabs.github.io/CLD-SGM/">project page</a>
-						/
-						<a href="https://iclr.cc/virtual/2022/spotlight/6688">video</a>
-						/
-						<a href="https://github.com/nv-tlabs/CLD-SGM">code</a>
-						/
-						<a href="https://twitter.com/karsten_kreis/status/1471160404747251720">twitter</a>
-            <p></p>
-            <p>We propose a novel diffusion using auxiliary velocity variables for more efficient denoising and higher quality generative models.</p>
-          </td>
-        </tr>
-        <tr>
-          <tr onmouseout="neurips21_stop()" onmouseover="neurips21_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='neurips21_image'>
-                  <img src="assets/quantization2.png" width="160" height="137">
-                </div>
-                <img src="assets/quantization1.png"  width="160" height="137">
-              </div>
-              <script type="text/javascript">
-                function neurips21_start() {
-                  document.getElementById('neurips21_image').style.opacity = "1";
-                }
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p style="text-align:center">
+                    <name>Tim Dockhorn</name>
+                  </p>
+                  <p>
+                    I am a research scientist at <a href="https://stability.ai/">Stability AI</a> and a final-year PhD
+                    student at the University of Waterloo, supervised by <a
+                      href="https://cs.uwaterloo.ca/~y328yu/">Yaoliang Yu</a>.
+                    My co-supervisor is <a href="https://homepages.inf.ed.ac.uk/imurray2/">Iain Murray</a>.
+                    Before starting my PhD, I obtained a Master of Mathematics from the University of Waterloo and a
+                    Bachelor of Science from the Technical University of Munich.
+                    My main research interest is generative modeling, with a focus on diffusion models.
+                  </p>
+                  <p style="text-align:center">
+                    <a href="mailto:timdockhorn@gmail.com">Email</a> &nbsp/&nbsp
+                    <a href="https://scholar.google.ca/citations?user=EtPn_v4AAAAJ">Google Scholar</a> &nbsp/&nbsp
+                    <a href="https://twitter.com/timudk">Twitter</a> &nbsp/&nbsp
+                    <a href="https://github.com/timudk/">Github</a>
+                  </p>
+                </td>
+                <td style="padding:2.5%;width:40%;max-width:40%">
+                  <a href="assets/me.jpeg"><img style="width:100%;max-width:100%" alt="profile photo"
+                      src="assets/me_rounded.jpeg" class="hoverZoomLink"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Research</heading>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="assets/SDXL.jpg" alt="clean-usnob" width="160" height="139">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://github.com/Stability-AI/generative-models">
+                    <papertitle>SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis</papertitle>
+                  </a>
+                  <br>
+                  Dustin Podell, Zion English, Kyle Lacey, Andreas Blattmann, <strong>Tim Dockhorn</strong>, Jonas
+                  Müller, Joe Penna, Robin Rombach
+                  <br>
+                  <em>arXiv</em>, 2023
+                  <br>
+                  <a href="https://arxiv.org/abs/2307.01952">arXiv</a>
+                  /
+                  <a href="https://github.com/Stability-AI/generative-models">code</a>
+                  /
+                  <a href="https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9">weights</a>
+                  /
+                  <a href="https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9">refiner weights</a>
+                  <p></p>
+                  <p>We present SDXL an improved version of Stable Diffusion using several conditioning tricks and
+                    multi-resolution training. We also release a refiner model to even further improve visual fidelity.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <video width=100% autoplay loop muted playsinline>
+                    <source src="assets/videoldm_sunset.mp4#t=0.001" type="video/mp4" width="160" height="85">
+                  </video>
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://research.nvidia.com/labs/toronto-ai/VideoLDM/">
+                    <papertitle>Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models
+                    </papertitle>
+                  </a>
+                  <br>
+                  Andreas Blattmann*, Robin Rombach*, <a href="http://www.cs.toronto.edu/~linghuan/">Huan Ling</a>*,
+                  <strong>Tim Dockhorn</strong>*, <a href="https://seung-kim.github.io/seungkim/">Seung Wook Kim</a>, <a
+                    href="https://www.cs.toronto.edu/~fidler/">Sanja Fidler</a>, <a
+                    href="https://karstenkreis.github.io/">Karsten Kreis</a>
+                  <br>
+                  <em>CVPR</em>, 2023
+                  <br>
+                  <a href="https://arxiv.org/abs/2304.08818">arXiv</a>
+                  /
+                  <a href="https://research.nvidia.com/labs/toronto-ai/VideoLDM/">project page</a>
+                  /
+                  <a href="https://twitter.com/karsten_kreis/status/1648685632632553472">twitter</a>
+                  <p></p>
+                  <p>We take Stable Diffusion, insert additional temporal layers and fine-tune them on video data while
+                    keeping the spatial layers fixed.</p>
+                </td>
+              </tr>
+              <tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <video width=100% autoplay loop muted playsinline>
+                    <source src="assets/cryoem_interpolation.mp4#t=0.001" type="video/mp4" width="160" height="85">
+                  </video>
+                </td>
+                <td width="75%" valign="middle">
+                  <papertitle>Latent Space Diffusion Models of Cryo-EM Structures</papertitle>
+                  <br>
+                  <a href="https://karstenkreis.github.io/">Karsten Kreis</a>*, <strong>Tim Dockhorn</strong>*, Zihao
+                  Li, <a href="https://people.csail.mit.edu/zhonge/">Ellen Zhong</a>
+                  <br>
+                  <em>Machine Learning for Structural Biology Workshop, NeurIPS</em>, 2022 &nbsp <font color="red">
+                    <strong>(Oral Presentation)</strong>
+                  </font>
+                  <br>
+                  <a href="https://arxiv.org/abs/2211.14169">arXiv</a>
+                  /
+                  <a href="https://twitter.com/ZhongingAlong/status/1598336281792188417">twitter</a>
+                  <p></p>
+                  <p>We train diffusion models over molecular confirmations from cryo-EM imaging data.</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="assets/dpdm_complexity.png" alt="clean-usnob" width="160" height="143">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://nv-tlabs.github.io/DPDM/">
+                    <papertitle>Differentially Private Diffusion Models</papertitle>
+                  </a>
+                  <br>
+                  <strong>Tim Dockhorn</strong>, Tianshi Cao, <a href="http://latentspace.cc/">Arash Vahdat</a>, <a
+                    href="https://karstenkreis.github.io/">Karsten Kreis</a>
+                  <br>
+                  <em>arXiv</em>, 2022
+                  <br>
+                  <a href="https://arxiv.org/abs/2210.09929">arXiv</a>
+                  /
+                  <a href="https://nv-tlabs.github.io/DPDM/">project page</a>
+                  /
+                  <a href="https://github.com/nv-tlabs/DPDM">code</a>
+                  /
+                  <a href="https://twitter.com/timudk/status/1582717593718181891">twitter</a>
+                  <p></p>
+                  <p>We train diffusion models with strict differential privacy guarantees and outperform previous
+                    methods by large margins.</p>
+                </td>
+              </tr>
+              <tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <video width=100% autoplay loop muted playsinline>
+                    <source src="assets/genie_cats.mp4#t=0.001" type="video/mp4" width="160" height="85">
+                  </video>
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://nv-tlabs.github.io/GENIE/">
+                    <papertitle>GENIE: Higher-Order Denoising Diffusion Solvers</papertitle>
+                  </a>
+                  <br>
+                  <strong>Tim Dockhorn</strong>, <a href="http://latentspace.cc/">Arash Vahdat</a>, <a
+                    href="https://karstenkreis.github.io/">Karsten Kreis</a>
+                  <br>
+                  <em>NeurIPS</em>, 2022
+                  <br>
+                  <a href="https://arxiv.org/abs/2210.05475">arXiv</a>
+                  /
+                  <a href="https://nv-tlabs.github.io/GENIE/">project page</a>
+                  /
+                  <a href="https://nips.cc/virtual/2022/poster/54550">video</a>
+                  /
+                  <a href="https://github.com/nv-tlabs/GENIE">code</a>
+                  /
+                  <a href="https://twitter.com/timudk/status/1580173105913135104">twitter</a>
+                  <p></p>
+                  <p>GENIE distills higher-order score terms into a small neural network and uses them for accelerated
+                    diffusion model sampling.</p>
+                </td>
+              </tr>
+              <tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <video width=100% autoplay loop muted playsinline>
+                    <source src="assets/cld_animation.mp4#t=0.001" type="video/mp4" width="160" height="85">
+                  </video>
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://nv-tlabs.github.io/CLD-SGM/">
+                    <papertitle>Score-Based Generative Modeling with Critically-Damped Langevin Diffusion</papertitle>
+                  </a>
+                  <br>
+                  <strong>Tim Dockhorn</strong>, <a href="http://latentspace.cc/">Arash Vahdat</a>, <a
+                    href="https://karstenkreis.github.io/">Karsten Kreis</a>
+                  <br>
+                  <em>ICLR</em>, 2022 &nbsp <font color="red"><strong>(Spotlight Presentation)</strong></font>
+                  <br>
+                  <a href="https://arxiv.org/abs/2112.07068">arXiv</a>
+                  /
+                  <a href="https://nv-tlabs.github.io/CLD-SGM/">project page</a>
+                  /
+                  <a href="https://iclr.cc/virtual/2022/spotlight/6688">video</a>
+                  /
+                  <a href="https://github.com/nv-tlabs/CLD-SGM">code</a>
+                  /
+                  <a href="https://twitter.com/karsten_kreis/status/1471160404747251720">twitter</a>
+                  <p></p>
+                  <p>We propose a novel diffusion using auxiliary velocity variables for more efficient denoising and
+                    higher quality generative models.</p>
+                </td>
+              </tr>
+              <tr>
+              <tr onmouseout="neurips21_stop()" onmouseover="neurips21_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='neurips21_image'>
+                      <img src="assets/quantization2.png" width="160" height="137">
+                    </div>
+                    <img src="assets/quantization1.png" width="160" height="137">
+                  </div>
+                  <script type="text/javascript">
+                    function neurips21_start() {
+                      document.getElementById('neurips21_image').style.opacity = "1";
+                    }
 
-                function neurips21_stop() {
-                  document.getElementById('neurips21_image').style.opacity = "0";
-                }
-                neurips21_stop()
-              </script>
-            </td>
-          <td width="75%" valign="middle">
-            <a href="https://proceedings.neurips.cc/paper/2021/hash/6e0cf80a83327822a972bcde3c1d9740-Abstract.html">
-              <papertitle>Demystifying and Generalizing BinaryConnect</papertitle>
-            </a>
-            <br>
-            <strong>Tim Dockhorn</strong>, <a href="https://cs.uwaterloo.ca/~y328yu/">Yaoliang Yu</a>, Eyyüb Sari, Mahdi Zolnouri, <a href="https://datawisdom.ca/">Vahid Partovi Nia</a>
-            <br>
-            <em>NeurIPS</em>, 2021
-            <br>
-            <a href="https://arxiv.org/abs/2110.13220">arXiv</a>
-						/
-						<a href="https://slideslive.com/38969161/demystifying-and-generalizing-binaryconnect?ref=recommended">video</a>
-						/
-						<a href="https://twitter.com/timudk/status/1453521784603561993">twitter</a>
-            <p></p>
-            <p>We show that proximal maps can serve as a natural family of quantizers that is both easy to design and analyze, and we propose ProxConnect as a generalization of the widely-used BinaryConnect.</p>
-          </td>
-        </tr>
-        <tr>
-          <tr onmouseout="icml20_stop()" onmouseover="icml20_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='icml20_image'>
-                  <img src="assets/denoised.png" width="160" height="128">
-                </div>
-                <img src="assets/noisy.png"  width="160" height="128">
-              </div>
-              <script type="text/javascript">
-                function icml20_start() {
-                  document.getElementById('icml20_image').style.opacity = "1";
-                }
+                    function neurips21_stop() {
+                      document.getElementById('neurips21_image').style.opacity = "0";
+                    }
+                    neurips21_stop()
+                  </script>
+                </td>
+                <td width="75%" valign="middle">
+                  <a
+                    href="https://proceedings.neurips.cc/paper/2021/hash/6e0cf80a83327822a972bcde3c1d9740-Abstract.html">
+                    <papertitle>Demystifying and Generalizing BinaryConnect</papertitle>
+                  </a>
+                  <br>
+                  <strong>Tim Dockhorn</strong>, <a href="https://cs.uwaterloo.ca/~y328yu/">Yaoliang Yu</a>, Eyyüb Sari,
+                  Mahdi Zolnouri, <a href="https://datawisdom.ca/">Vahid Partovi Nia</a>
+                  <br>
+                  <em>NeurIPS</em>, 2021
+                  <br>
+                  <a href="https://arxiv.org/abs/2110.13220">arXiv</a>
+                  /
+                  <a
+                    href="https://slideslive.com/38969161/demystifying-and-generalizing-binaryconnect?ref=recommended">video</a>
+                  /
+                  <a href="https://twitter.com/timudk/status/1453521784603561993">twitter</a>
+                  <p></p>
+                  <p>We show that proximal maps can serve as a natural family of quantizers that is both easy to design
+                    and analyze, and we propose ProxConnect as a generalization of the widely-used BinaryConnect.</p>
+                </td>
+              </tr>
+              <tr>
+              <tr onmouseout="icml20_stop()" onmouseover="icml20_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='icml20_image'>
+                      <img src="assets/denoised.png" width="160" height="128">
+                    </div>
+                    <img src="assets/noisy.png" width="160" height="128">
+                  </div>
+                  <script type="text/javascript">
+                    function icml20_start() {
+                      document.getElementById('icml20_image').style.opacity = "1";
+                    }
 
-                function icml20_stop() {
-                  document.getElementById('icml20_image').style.opacity = "0";
-                }
-                icml20_stop()
-              </script>
-            </td>
-          <td width="75%" valign="middle">
-            <a href="https://arxiv.org/abs/2006.09396">
-              <papertitle>Density Deconvolution with Normalizing Flows</papertitle>
-            </a>
-            <br>
-            <strong>Tim Dockhorn</strong>*, <a href="https://www.jmsrt.ch/">James Ritchie</a>*, <a href="https://cs.uwaterloo.ca/~y328yu/">Yaoliang Yu</a>, <a href="https://homepages.inf.ed.ac.uk/imurray2/">Iain Murray</a>
-            <br>
-            <em>INNF+: Invertible Neural Networks, Normalizing Flows, and Explicit Likelihood Models, ICML</em>, 2020
-            <br>
-            <a href="https://arxiv.org/abs/2006.09396">arXiv</a>
-						/
-						<a href="https://slideslive.com/38931472/density-deconvolution-with-normalizing-flows">video</a>
-						/
-						<a href="https://github.com/bayesiains/density-deconvolution">code</a>
-						/
-						<a href="https://twitter.com/timudk/status/1273596175980126211">twitter</a>
-            <p></p>
-            <p>We denoise distributions using Normalzing Flows in conjuction with amortized variational inference.</p>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <img src="assets/tolerance_scheduler.png" alt="clean-usnob" width="160" height="117">
-          </td>
-          <td width="75%" valign="middle">
-            <a href="https://uwspace.uwaterloo.ca/handle/10012/15354">
-              <papertitle>Generative Modeling with Neural Ordinary Differential Equations</papertitle>
-            </a>
-            <br>
-            <strong>Tim Dockhorn</strong>
-            <br>
-            <em>Master's Thesis</em>, 2017
-            <br>
-            <a href="https://uwspace.uwaterloo.ca/handle/10012/15354">thesis</a>
-            <p></p>
-            <p>I give a comprehensive and self-contained introduction to continuous Normalizing Flows, and show that their training can be accelerated using tolerance schedulers.</p>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <img src="assets/kovasznay_flow.png" alt="clean-usnob" width="160" height="160">
-          </td>
-          <td width="75%" valign="middle">
-            <a href="https://arxiv.org/abs/1904.07200">
-              <papertitle>A Discussion on Solving Partial Differential Equations using Neural Networks</papertitle>
-            </a>
-            <br>
-            <strong>Tim Dockhorn</strong>
-            <br>
-            <em>arXiv</em>, 2019
-            <br>
-            <a href="https://arxiv.org/abs/1904.07200">arXiv</a>
-            /
-            <a href="https://github.com/timudk/SPDENN">code</a>
-            /
-            <a href="https://twitter.com/hardmaru/status/1118040894391742464">twitter</a>
-            <p></p>
-            <p>I show that small neural networks (less than 500 parameters) can learn solutions of complex PDEs when optimized with BFGS.</p>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <img src="assets/bfs_demo.gif" alt="clean-usnob" width="160" height="72">
-          </td>
-          <td width="75%" valign="middle">
-            <a href="https://github.com/timudk/bachelors_thesis">
-              <papertitle>Turbulence modeling for large eddy simulation using high-order discontinuous Galerkin methods</papertitle>
-            </a>
-            <br>
-            <strong>Tim Dockhorn</strong>
-            <br>
-            <em>Bacherlor's Thesis</em>, 2017
-            <br>
-            <a href="https://github.com/timudk/bachelors_thesis">thesis</a>
-            <p></p>
-            <p>I test a variety of tubulence models within a high-order discontinuous Galerkin method.</p>
-          </td>
-        </tr>
-      </tbody></table>
-      
-    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-      <tr>
-        <td>
-          <heading>Invited Talks</heading>
+                    function icml20_stop() {
+                      document.getElementById('icml20_image').style.opacity = "0";
+                    }
+                    icml20_stop()
+                  </script>
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://arxiv.org/abs/2006.09396">
+                    <papertitle>Density Deconvolution with Normalizing Flows</papertitle>
+                  </a>
+                  <br>
+                  <strong>Tim Dockhorn</strong>*, <a href="https://www.jmsrt.ch/">James Ritchie</a>*, <a
+                    href="https://cs.uwaterloo.ca/~y328yu/">Yaoliang Yu</a>, <a
+                    href="https://homepages.inf.ed.ac.uk/imurray2/">Iain Murray</a>
+                  <br>
+                  <em>INNF+: Invertible Neural Networks, Normalizing Flows, and Explicit Likelihood Models, ICML</em>,
+                  2020
+                  <br>
+                  <a href="https://arxiv.org/abs/2006.09396">arXiv</a>
+                  /
+                  <a href="https://slideslive.com/38931472/density-deconvolution-with-normalizing-flows">video</a>
+                  /
+                  <a href="https://github.com/bayesiains/density-deconvolution">code</a>
+                  /
+                  <a href="https://twitter.com/timudk/status/1273596175980126211">twitter</a>
+                  <p></p>
+                  <p>We denoise distributions using Normalzing Flows in conjuction with amortized variational inference.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="assets/tolerance_scheduler.png" alt="clean-usnob" width="160" height="117">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://uwspace.uwaterloo.ca/handle/10012/15354">
+                    <papertitle>Generative Modeling with Neural Ordinary Differential Equations</papertitle>
+                  </a>
+                  <br>
+                  <strong>Tim Dockhorn</strong>
+                  <br>
+                  <em>Master's Thesis</em>, 2017
+                  <br>
+                  <a href="https://uwspace.uwaterloo.ca/handle/10012/15354">thesis</a>
+                  <p></p>
+                  <p>I give a comprehensive and self-contained introduction to continuous Normalizing Flows, and show
+                    that their training can be accelerated using tolerance schedulers.</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="assets/kovasznay_flow.png" alt="clean-usnob" width="160" height="160">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://arxiv.org/abs/1904.07200">
+                    <papertitle>A Discussion on Solving Partial Differential Equations using Neural Networks
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>Tim Dockhorn</strong>
+                  <br>
+                  <em>arXiv</em>, 2019
+                  <br>
+                  <a href="https://arxiv.org/abs/1904.07200">arXiv</a>
+                  /
+                  <a href="https://github.com/timudk/SPDENN">code</a>
+                  /
+                  <a href="https://twitter.com/hardmaru/status/1118040894391742464">twitter</a>
+                  <p></p>
+                  <p>I show that small neural networks (less than 500 parameters) can learn solutions of complex PDEs
+                    when optimized with BFGS.</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="assets/bfs_demo.gif" alt="clean-usnob" width="160" height="72">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://github.com/timudk/bachelors_thesis">
+                    <papertitle>Turbulence modeling for large eddy simulation using high-order discontinuous Galerkin
+                      methods</papertitle>
+                  </a>
+                  <br>
+                  <strong>Tim Dockhorn</strong>
+                  <br>
+                  <em>Bacherlor's Thesis</em>, 2017
+                  <br>
+                  <a href="https://github.com/timudk/bachelors_thesis">thesis</a>
+                  <p></p>
+                  <p>I test a variety of tubulence models within a high-order discontinuous Galerkin method.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>
+                  <heading>Invited Talks</heading>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="assets/heidelberg.webp" width="160" height="100">
+                </td>
+                <td width="70%" valign="middle">
+                  <a href="https://typo.iwr.uni-heidelberg.de/fileadmin/user_upload/IWR-C-Abstract-Dockhorn-2023.pdf">
+                    <papertitle>Accelerated Sampling and Improved Synthesis in Diffusion Models</papertitle>
+                  </a>
+                  <br>
+                  <em>IWR Colloquium</em>, 11.01.2023
+                  <br>
+                  <a href="https://drive.google.com/file/d/1zSmLcy_r7Bthhkxwg_TFd5D1m9M4WZ1T/edit">slides</a>
+                  <p></p>
+                  Hosted by <a href="https://hci.iwr.uni-heidelberg.de/people/fhamprec">Fred Hamprecht</a>.
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="assets/google_mouse.png" width="160" height="160">
+                </td>
+                <td width="70%" valign="middle">
+                  <a href="https://nv-tlabs.github.io/DPDM/">
+                    <papertitle>Differentially Private Diffusion Models</papertitle>
+                  </a>
+                  <br>
+                  <em>Google Tech Talks: Differential Privacy for ML</em>, 12.04.2023
+                  <br>
+                  <a
+                    href="https://drive.google.com/file/d/1GzuLr6WStSrPNqqWUw7ylIUL0kLV9Rcp/view?usp=share_link">slides</a>
+                  <p></p>
+                  Hosted by <a href="http://www.thomas-steinke.net/">Thomas Steinke</a>.
+                  <br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    Source code credit to <a href="https://jonbarron.info/" target="_blank">Jon Barron</a></p>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </td>
       </tr>
-    </tbody></table>
-
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    
-    <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="assets/heidelberg.webp" width="160" height="100">
-      </td>
-      <td width="70%" valign="middle">
-        <a href="https://typo.iwr.uni-heidelberg.de/fileadmin/user_upload/IWR-C-Abstract-Dockhorn-2023.pdf">
-          <papertitle>Accelerated Sampling and Improved Synthesis in Diffusion Models</papertitle>
-        </a>
-        <br>
-        <em>IWR Colloquium</em>, 11.01.2023
-        <br>
-        <a href="https://drive.google.com/file/d/1zSmLcy_r7Bthhkxwg_TFd5D1m9M4WZ1T/edit">slides</a>
-        <p></p>
-        Hosted by <a href="https://hci.iwr.uni-heidelberg.de/people/fhamprec">Fred Hamprecht</a>.
-        <br>
-      </td>
-    </tr>
-    <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <img src="assets/google_mouse.png" width="160" height="160">
-      </td>
-      <td width="70%" valign="middle">
-        <a href="https://nv-tlabs.github.io/DPDM/">
-        <papertitle>Differentially Private Diffusion Models</papertitle>
-        </a>
-        <br>
-        <em>Google Tech Talks: Differential Privacy for ML</em>, 12.04.2023
-        <br>
-        <a href="https://drive.google.com/file/d/1GzuLr6WStSrPNqqWUw7ylIUL0kLV9Rcp/view?usp=share_link">slides</a>
-        <p></p>
-        Hosted by <a href="http://www.thomas-steinke.net/">Thomas Steinke</a>.
-        <br>
-      </td>
-    </tr>
-  </tbody></table>
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                Source code credit to <a href="https://jonbarron.info/" target="_blank">Jon Barron</a></p>
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
   </table>
 </body>
 
